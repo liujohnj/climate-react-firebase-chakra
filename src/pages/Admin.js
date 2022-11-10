@@ -1,8 +1,13 @@
 import React from "react";
+import { Box, Text } from "@chakra-ui/react";
+import AddEvent from "../components/AddEvent";
 
 const Admin = () => {
   return (
-    <div>Admin</div>
+    <Box p={5}>
+      <Text fontSize="4xl" justify="left" align="left">Admin</Text>
+      <AddEvent />
+    </Box>
   )
 }
 
